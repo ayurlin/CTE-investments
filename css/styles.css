@@ -78,6 +78,9 @@ body {
 :-moz-placeholder { /* Firefox 18- */
 	color: #909090;
 }
+main {
+	margin-top: 40px;
+}
 textarea {
 	padding: 8px;
 	width: 98%;
@@ -286,6 +289,7 @@ a.red:hover {
 	background-image: url("../images/header_bg.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 }
 #map.full-size:before {
     content: '';
@@ -417,7 +421,11 @@ a.red:hover {
 }
 .apartment-legend li {
 	display: inline-block;
-	margin: 10px 7% 0 3%;
+	margin: 10px 3% 0 0;
+}
+.apartment-legend select {
+	border: solid 1px #ebebeb;
+	width: 260px;
 }
 .apartment-legend li:before {
 	content: "";
@@ -675,6 +683,7 @@ select option {
 td.see-more-icon {
 	padding: 0;
 	cursor: pointer;
+	min-width: 40px;
 }
 
 /* end of tables */
@@ -879,6 +888,11 @@ footer ul li:not(:first-child) {
 	.single-news {
 		width: 100%;
 	}
+	.apartment-legend li.reserved, .apartment-legend li.unavailable, .apartment-legend li.available {
+		display: block;
+		margin-left: 30px;
+	}
+
 
 } /* end of 900 */
 
