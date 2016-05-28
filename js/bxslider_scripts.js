@@ -34,6 +34,8 @@ $('.bxslider.single-slider').bxSlider({
 	  minSlides: 1,
 	  maxSlides: 1,
 	  slideWidth: 263,
+	  nextText: "",
+	  prevText: "",
 	  pagerCustom: '#single_navigation'
 	});
 $('.bxslider.apartment-popup-slider').bxSlider({
