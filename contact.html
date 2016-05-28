@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="initial-scale=1">
+	<title>CTE SA Investments</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="container header-container">
+			<div id="logo"></div>
+			<div class="navigation-container">
+				<ul id="main_navigation_list" class="relative">
+					<li><a href="">O firmie</a></li>
+					<li><a href="">Inwestycje</a></li>
+					<li><a href="">Strefa klienta</a></li>
+					<li><a href="">Aktualności</a></li>
+					<li class="current-page-item"><a href="">Kontakt</a></li>
+				</ul>
+				<div class="dropdown-menu">
+					<img src="images/mobile_menu.jpg" alt="menu">
+					<ul>
+						<li><a>O firmie</a></li>
+						<li><a>Inwestycje</a></li>
+						<li><a>Strefa klienta</a></li>
+						<li><a>Aktualności</a></li>
+						<li><a>Kontact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="map-header">
+		<div id="map" class="full-size"></div>
+	</div>
+
+	<div class="container">
+		<aside class="sidebar contact-sidebar">
+			<h5 class="bottom-border location-icon">CTE S.A.</h5>
+			<ul class="separate-margin">
+				<li>Sky Tower, Wrocław, ul. Gwiaździsta 66</li>
+			</ul>
+			<h5 class="bottom-border">Dział sprzedaży</h5>
+			<ul>
+				<li class="telephone-icon">tel.: 71 79 99 909</li>
+				<li class="telephone-icon">tel.: 71 79 99 909</li>
+				<li class="email-icon">e-mail: cte@cte-sa.pl</li>
+			</ul>
+			<h5 class="bottom-border">Dział Administracyjny</h5>
+			<ul>
+				<li class="telephone-icon">tel.: 71 79 99 909</li>
+			</ul>
+		</aside>
+
+		<main class="sidebar-page-main-content">
+			<h1>Kontakt</h1>
+			<h3>Masz pytanie? Napisz a my odpowiemy w ciągu 24 godzin!</h3>
+			<p class="separate-margin">Curabitur eros lorem, cursus nec molestie posuere, mattis venenatis eros. Vestibulum ut nunc vitae odio imperdiet bibendum vel malesuada risus. Aenean auctor, diam at rhoncus sus</p>
+			<form id="contact_form">
+				<input type="text" name="contact_name" placeholder="Imie i nazwisko">
+				<input type="email" name="contact_email" placeholder="Adres e-mail">
+				<input type="text" name="contact_number" placeholder="Numer telefonu">
+				<input type="text" name="contact_title" placeholder="Temat wiadomości">
+				<textarea rows="12" placeholder="Treść pytania"></textarea>
+				<button class="submit-btn" type="submit">Wyślij</button>
+			</form>
+		</main>
+	</div>
+	<section id="search_panel">
+		<div class="container">
+			<form id="search_form">
+				<select>
+					<option value="">- Rodzaj powierzchni</option>
+					<option value="">test</option>
+				</select>
+				<select>
+					<option value="">- Inwestycja</option>
+					<option value="">test</option>
+				</select>
+				<input type="text" name="minPrice" placeholder="cena od">
+				<input type="text" name="maxPrice" placeholder="cena do">
+				<input type="text" name="minArea" placeholder="pow.min.">
+				<input type="text" name="maxArea" placeholder="pow.max">
+				<input class="full-width" type="text" name="room" placeholder="l.pokoi">
+				<select>
+					<option value="">- Program MDM?</option>
+					<option value="">test</option>
+				</select>
+				<button class="search-button" type="submit"><img src="images/search_btn.png" alt="szukaj"></button>
+			</form>
+		</div>
+	</section>
+	<img src="images/motto.png" class="motto" alt="Niewiele jest takich miejsc we Wrocławiu!">
+	<section id="firm_info_container">
+			<div class="container">
+				<img class="inline-block" src="images/investment_img.jpg" alt="inwestycja roku 2014">
+				<ul class="info-section-sublist inline-block">
+					<li>
+						Centre od Trade Estate S.A.
+					</li>
+					<li>
+						Al. Wiśniowa 47 53-126 Wrocław
+					</li>
+					<li>
+						NIP: 897-16-93-211
+					</li>
+				</ul>
+				<ul class="info-section-sublist inline-block">
+					<li>
+						Kapitał zakładowy: 8.000.000,00 PLN
+					</li>
+					<li>
+						REGON: 932989989,
+					</li>
+					<li>
+						KRS: 0000205346
+					</li>
+				</ul>
+				<ul class="link-list inline-block">
+					<li><a href="">Polityka prywatności</a></li>
+					<li><a href="">Regulamin</a></li>
+					<li><a href="">Kontakt</a></li>
+				</ul>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container relative">
+			<span class="to-top main-color italic">Do góry<img src="images/top_arrow.png" alt="do góry strony"></span>
+			<ul>
+				<li class="copyrights">Copyright &copy; CTE S.A.</li>
+				<li>strony internetowe iCenter.pl</li>
+				<li>CMS WEGO</li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/bxslider_scripts.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+</body>
+</html>
