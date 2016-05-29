@@ -41,14 +41,14 @@ $(document).ready(function() {
 
     // modal functionality
     $(".see-more-icon").on("click", function(){
-        $("#modal_apartment").css("display", "block");
+        $("#modal_apartment").css("visibility", "visible").css('z-index','2');
     });
     $(".modal .close").on("click", function(){
-        $(".modal").css("display", "none");
+        $(".modal").css("visibility", "hidden").css('z-index','-2');
     });
     window.onclick = function(event) {
         if (event.target == $(".modal-content")) {
-            $(".modal-content").css("display", "none");
+            $(".modal-content").css("visibility", "hidden").css('z-index','-2');
         }
     }
 

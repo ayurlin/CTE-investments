@@ -42,6 +42,7 @@ $('.bxslider.apartment-popup-slider').bxSlider({
 	  minSlides: 1,
 	  maxSlides: 1,
 	  slideWidth: 797,
+	  auto: true,
 	  nextText: "",
 	  prevText: ""
 	});
