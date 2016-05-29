@@ -193,19 +193,21 @@ a.red:hover {
 	float: right;
 	margin: -40px 0 20px;
 }
-#main_navigation_list li { 
+#main_navigation_list > li { 
 	list-style: none;
 	float: left;
+	height: 40px;
 }
 #main_navigation_list li:not(#magic_line) {
 	margin-right: 32px;
-	padding-bottom: 20px;
 }
 #main_navigation_list li a { 
 	position: relative; 
 	z-index: 200;  
 	font-size: 18px;
 	font-family: Lato Light;
+	display: block;
+	height: 45px;
 }
 #main_navigation_list #magic_line { 
 	position: absolute; 
@@ -213,6 +215,63 @@ a.red:hover {
 	left: 0; 
 	z-index: 100; 
 	border-bottom: solid 2px #cf2120;
+}
+#main_navigation_list .submenu-categories .submenu-element {
+	display: inline-block;
+	width: 24%;
+	margin: 20px 0!important;
+	color: #fff;
+	cursor: pointer;
+	padding: 0 19px;
+}
+#main_navigation_list .submenu-categories .submenu-element:not(:last-child) {
+	border-right: solid 1px #fff;
+}
+.dropdown-menu {
+	display: none;
+}
+.submenu-categories {
+	text-align: center;
+}
+.submenu-categories li img {
+	display: block;
+	margin: 0 auto 10px;
+}
+.submenu {
+	background-color: #c81b14;
+	opacity: 0.95;
+}
+.submenu .submenu-title {
+	display: inline-block;
+	cursor: pointer;
+	margin: 20px 0 0 20px;
+	color: #fff;
+}
+.submenu .submenu-title.active {
+	font-weight: bold;
+}
+.submenu .submenu-title.active:before {
+	content: " ";
+	background-image: url("../images/submenu_arrow.png");
+	height: 8px;
+	width: 14px;
+	display: block;
+	position: relative;
+	top: 30px;
+	left: 40%;
+}
+.investments-submenu {
+	position: absolute;
+	top: 42px;
+}
+.menu-investments:hover > .investments-submenu {
+	display: block;
+	z-index: 99;
+	position: absolute;
+}
+.investments-submenu:hover {
+	display: block;
+	z-index: 99;
 }
 #slider_container .slider {
 	margin-top: -18%;
@@ -270,19 +329,6 @@ a.red:hover {
 }
 /* end of top slider pagination */
 
-.submenu {
-	background-color: #c81b14;
-	opacity: 0.95;
-	height: 200px;
-	max-width: 500px;
-}
-.investments-submenu {
-	position: absolute;
-	left: 60.3%;
-}
-.submenu li {
-	display: inline-block;
-}
 .subpage-header-image-container {
 	height: 200px;
 	width: 100%;
@@ -304,20 +350,6 @@ a.red:hover {
     -webkit-box-shadow: inset 0px 4px 5px 0px rgba(184,184,184,0.5);
 	-moz-box-shadow: inset 0px 4px 5px 0px rgba(184,184,184,0.5);
 	box-shadow: inset 0px 4px 5px 0px rgba(184,184,184,0.5);
-}
-
-/* dropdown menu */
-
-.dropdown-menu {
-	display: none;
-}
-.submenu-categories li {
-	width: 32%;
-	color: #fff;
-}
-.submenu-categories li img {
-	display: block;
-	margin: auto;
 }
 
 /* END OF HEADER */
@@ -424,11 +456,11 @@ a.red:hover {
     width: 11px;
 }
 .apartment-legend {
-	margin: 10px 0 30px;
+	margin: 10px 0 30px 30px;
 }
 .apartment-legend li {
 	display: inline-block;
-	margin: 10px 3% 0 0;
+	margin: 10px 5% 0 0;
 }
 .apartment-legend select {
 	border: solid 1px #ebebeb;
@@ -681,7 +713,6 @@ select option {
 .price-list-table td {
 	padding-left: 2%;
 	line-height: 3.2em;
-	display: inline-block;
 }
 .price-list-table a {
 	display: block;
@@ -700,7 +731,7 @@ select option {
 	color: #fff;
 }
 td.see-more-icon {
-	padding: 0;
+	padding: 0 0 0 20px;
 	cursor: pointer;
 	min-width: 40px;
 }
@@ -770,17 +801,12 @@ footer ul li:not(:first-child) {
     top: -10px;
     width: 47px;
 }
-#modal_apartment .inline-carousel .bx-viewport {
-	height: auto!important;
-}
+
 #modal_apartment .table-sidebar {
 	float: right;
 }
-.apartment-popup-slider li {
-	width: auto!important;
-}
 #modal_apartment .inline-carousel {
-	float: left;
+	margin-left: -20%;
 }
 
 /* CONTACT PAGE */
@@ -1020,6 +1046,9 @@ footer ul li:not(:first-child) {
 	.sidebar, .sidebar-page-main-content {
 		float: none;
 		width: 100%;
+	}
+	#investment_tables {
+		min-height: 300px;
 	}
 
 

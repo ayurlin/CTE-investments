@@ -73,6 +73,23 @@ $(document).ready(function() {
     });
 
 
+    // dropdown menu
+    $(".realized-title").on("click", function(){
+        $(".in-progress-title").removeClass('active');
+        $(".in-progress").hide();
+        $(".realized").show();
+        $(".realized-title").addClass('active');
+        
+    });
+    $(".in-progress-title").on("click", function(){
+        $(".realized-title").removeClass('active');
+        $(".realized").hide();
+        $(".in-progress").show();
+        $(".in-progress-title").addClass('active');
+    });
+
+
+
 }); // end of document.ready()
 
 
