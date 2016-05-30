@@ -89,6 +89,22 @@ textarea, input {
 	font-family: Lato Light;
 	font-size: 14px;
 }
+select {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	appearance: none;
+    background-image: url("../images/select_arrow.png");
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+ select::-ms-expand{
+    display: none;
+}
+select, input {
+	height: 40px;
+	border: none;
+	padding: 0 0 0 5px;
+}
 p, h3, a, h5 {
 	color: #535353;
 }
@@ -219,7 +235,7 @@ a.red:hover {
 }
 #main_navigation_list .submenu-categories .submenu-element {
 	display: inline-block;
-	width: 24%;
+	width: 23%;
 	margin: 20px 0!important;
 	color: #fff;
 	cursor: pointer;
@@ -301,9 +317,8 @@ a.red:hover {
 	color: #fff;
 }
 #slider_container {
-	margin-bottom: 8%;
+	margin-bottom: 10%;
 }
-
 /* top slider pagination */
 
 #slider_navigation {
@@ -614,28 +629,11 @@ a.red:hover {
 	clear: both;
 	margin-bottom: 30px;
 }
-select {
-	appearance: none;
-	-webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url("../images/select_arrow.png");
-    background-repeat: no-repeat;
-    background-position: 95% center;
-}
 #search_form select {
 	width: 18%;
 }
 #search_form input {
 	width: 7.5%;
-}
-select, select option, input {
-	height: 40px;
-	border: none;
-	padding: 0 0 0 5px;
-}
-select option {
-	padding-top: 10px;
-	border: none;
 }
 .search-button {
 	background-color: #cf2120;
