@@ -44,20 +44,20 @@ table {
 /* end of reset.css */
 
 @font-face {
-  font-family: Lato Regular;
-  src: url("../fonts/Lato-Regular.ttf");
+	font-family: Lato Regular;
+	src: url("../fonts/Lato-Regular.ttf");
 } 
 @font-face {
-  font-family: Lato Light;
-  src: url("../fonts/Lato-Light.ttf");
+	font-family: Lato Light;
+	src: url("../fonts/Lato-Light.ttf");
 } 
 @font-face {
-  font-family: Lato Black;
-  src: url("../fonts/Lato-Black.ttf");
+	font-family: Lato Black;
+	src: url("../fonts/Lato-Black.ttf");
 } 
 @font-face {
-  font-family: Lato Bold;
-  src: url("../fonts/Lato-Semibold.ttf");
+	font-family: Lato Bold;
+	src: url("../fonts/Lato-Semibold.ttf");
 } 
 html {
 	font-size: 14px;
@@ -91,14 +91,14 @@ textarea, input {
 }
 select {
 	-webkit-appearance: none;
-    -moz-appearance: none;
+	-moz-appearance: none;
 	appearance: none;
-    background-image: url("../images/select_arrow.png");
-    background-repeat: no-repeat;
-    background-position: 95% center;
+	background-image: url("../images/select_arrow.png");
+	background-repeat: no-repeat;
+	background-position: 95% center;
 }
- select::-ms-expand{
-    display: none;
+select::-ms-expand{
+	display: none;
 }
 select, input {
 	height: 40px;
@@ -327,17 +327,18 @@ a.red:hover {
 	position: relative;
 } 
 .pagination a {
-	width: 14px;
-	height: 14px;
 	margin-right: 10px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
 }
 .pagination a.active {
 	border: solid 1px  #09214f;
 	border-radius: 50%;
 }
 .pagination-btn {
-    fill: #282927; 
-    cursor: pointer;
+	fill: #282927; 
+	cursor: pointer;
 }
 .pagination-btn:hover {
 	fill: #d32525;
@@ -354,16 +355,16 @@ a.red:hover {
 	background-size: cover;
 }
 #map.full-size:before {
-    content: '';
-    position: absolute;
-    top:0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: block;
-    z-index: 10;
-    pointer-events: none;
-    -webkit-box-shadow: inset 0px 4px 5px 0px rgba(184,184,184,0.5);
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	z-index: 10;
+	pointer-events: none;
+	-webkit-box-shadow: inset 0px 4px 5px 0px rgba(184,184,184,0.5);
 	-moz-box-shadow: inset 0px 4px 5px 0px rgba(184,184,184,0.5);
 	box-shadow: inset 0px 4px 5px 0px rgba(184,184,184,0.5);
 }
@@ -453,7 +454,7 @@ a.red:hover {
 }
 .sidebar-page-main-content .realise-date {
 	margin-top: 15px;
-} 
+}
 .sidebar-page-main-content .realise-date img {
 	vertical-align: bottom;
 	margin-right: 5px;
@@ -463,13 +464,13 @@ a.red:hover {
 }
 .styled-list li:before {
 	background-image: url("../images/check_mark.png");
-    content: "";
-    display: inline-block;
-    height: 8px;
-    left: -20px;
-    position: relative;
-    top: 18px;
-    width: 11px;
+	content: "";
+	display: inline-block;
+	height: 8px;
+	left: -20px;
+	position: relative;
+	top: 18px;
+	width: 11px;
 }
 .apartment-legend {
 	margin: 10px 0 30px 30px;
@@ -593,28 +594,28 @@ a.red:hover {
 	margin-top: 40px;
 }
 .submit-btn:after {
-    background-image: url("../images/send_icon.png");
-    content: " ";
-    display: block;
-    height: 16px;
-    left: 55px;
-    position: relative;
-    top: -27px;
-    width: 22px;
+	background-image: url("../images/send_icon.png");
+	content: " ";
+	display: block;
+	height: 16px;
+	left: 55px;
+	position: relative;
+	top: -27px;
+	width: 22px;
 }
 .submit-btn {
-    background-color: #de1815;
-    border: medium none;
-    color: #fff;
-    font-size: 14px;
-    height: 45px;
-    letter-spacing: 0.15em;
-    line-height: 3em;
-    width: 165px;
-    text-align: left;
-    padding-left: 45px;
-    margin: 10px 0 50px;
-    cursor: pointer;
+	background-color: #de1815;
+	border: medium none;
+	color: #fff;
+	font-size: 14px;
+	height: 45px;
+	letter-spacing: 0.15em;
+	line-height: 3em;
+	width: 165px;
+	text-align: left;
+	padding-left: 45px;
+	margin: 10px 0 50px;
+	cursor: pointer;
 }
 
 /* search panel */
@@ -638,10 +639,10 @@ a.red:hover {
 .search-button {
 	background-color: #cf2120;
 	border: medium none;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-    vertical-align: top;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	vertical-align: top;
 }
 
 /* end of search panel */
@@ -689,7 +690,7 @@ a.red:hover {
 }
 .single-investment-table td {
 	line-height: 2.8em;
-    padding: 0 0 0 10px;
+	padding: 0 0 0 10px;
 }
 .single-investment-table td {
 	border-bottom: solid 3px #fff;
@@ -763,7 +764,7 @@ footer ul li:not(:first-child) {
 	height: 100px;
 	line-height: 7em;
 	text-align: center;
-} 
+}
 .to-top img {
 	margin-left: 8%;
 }
@@ -774,32 +775,32 @@ footer ul li:not(:first-child) {
 
 .modal {
 	visibility: hidden;
-    position: fixed;
-    z-index: -2;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	z-index: -2;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
 }
 .modal footer {
 	height: auto;
 }
 .modal-content {
-    background-color: #fefefe;
-    margin: 10% auto;
-    padding: 10px 10px 40px 10px;
-    border: 1px solid #888;
-    max-width: 1140px;
+	background-color: #fefefe;
+	margin: 10% auto;
+	padding: 10px 10px 40px 10px;
+	border: 1px solid #888;
+	max-width: 1140px;
 }
 .modal-content .close {
 	cursor: pointer;
-    display: block;
-    left: 102%;
-    top: -10px;
-    position: relative;
+	display: block;
+	left: 102%;
+	top: -10px;
+	position: relative;
 }
 #modal_apartment .table-sidebar {
 	display: inline-block;
@@ -834,8 +835,8 @@ footer ul li:not(:first-child) {
 	height: 45px;
 	display: inline-block;
 	line-height: 3.4em;
-    padding-left: 10px;
-    margin-bottom: 10px;
+	padding-left: 10px;
+	margin-bottom: 10px;
 }
 .modal-btn.send-icon {
 	width: 67%;
@@ -1034,39 +1035,39 @@ footer ul li:not(:first-child) {
 		display: none;
 	}
 	.dropdown-menu img {
-	    tap-highlight-color: transparent;
-	    -webkit-tap-highlight-color: transparent;
-  	}
+		tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: transparent;
+	}
 	.dropdown-menu ul {
-	    display: none;
-	    position: absolute;
-	    top: 76px;
-	    right: 20px;
-	    z-index: 2;
-	  }
+		display: none;
+		position: absolute;
+		top: 76px;
+		right: 20px;
+		z-index: 2;
+	}
 	.dropdown-menu ul li a {
-	    height: 50px;
-	    width: 150px;
-	    text-align: center;
-	    color: #de1815;
-	    line-height: 2.4em;
-	    font-size: 20px;
-	    background-color: #fff;
-	    display: block;
-	    border: solid 1px #ebebeb;
-	    cursor: pointer;
-	  }
-	  .info-box {
-	  	width: 43%;
-	  	margin: 10px 0;
-	  	min-height: 0;
-	  }
-	  .info-box .slider {
-	  	width: auto;
-	  	margin: auto;
-	  	max-height: 300px;
-	  	overflow: hidden;
-	  }
+		height: 50px;
+		width: 150px;
+		text-align: center;
+		color: #de1815;
+		line-height: 2.4em;
+		font-size: 20px;
+		background-color: #fff;
+		display: block;
+		border: solid 1px #ebebeb;
+		cursor: pointer;
+		}
+		.info-box {
+			width: 43%;
+			margin: 10px 0;
+			min-height: 0;
+		}
+		.info-box .slider {
+			width: auto;
+			margin: auto;
+			max-height: 300px;
+			overflow: hidden;
+		}
 
 } /* end of 820 */
 
@@ -1195,6 +1196,8 @@ footer ul li:not(:first-child) {
 	}
 
 }
+
+/* RESPONSIVE TABLE CSS */
 
 @media 
 only screen and (max-width: 760px),

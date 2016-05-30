@@ -1,20 +1,20 @@
 $(document).ready(function() {
 
-$('.bxslider.top-slider').bxSlider({
+$(".bxslider.top-slider").bxSlider({
 	  minSlides: 1,
 	  maxSlides: 1,
-	  pagerCustom: '#slider_navigation'
+	  pagerCustom: "#slider_navigation"
 	});
 
-$('.bxslider.news-slider').bxSlider({
+$(".bxslider.news-slider").bxSlider({
 	  minSlides: 1,
 	  maxSlides: 1,
 	  slideWidth: 340,
-	  pagerCustom: '#news_navigation',
+	  pagerCustom: "#news_navigation",
 	  nextText: "",
 	  prevText: ""
 	});
-$('.bxslider.visualization-slider').bxSlider({
+$(".bxslider.visualization-slider").bxSlider({
 	  minSlides: 4,
 	  maxSlides: 4,
 	  slideWidth: 195,
@@ -22,7 +22,7 @@ $('.bxslider.visualization-slider').bxSlider({
 	  nextText: "",
 	  prevText: ""
 	});
-$('.bxslider.photos-slider').bxSlider({
+$(".bxslider.photos-slider").bxSlider({
 	  minSlides: 4,
 	  maxSlides: 4,
 	  slideWidth: 195,
@@ -30,15 +30,15 @@ $('.bxslider.photos-slider').bxSlider({
 	  nextText: "",
 	  prevText: ""
 	});
-$('.bxslider.single-slider').bxSlider({
+$(".bxslider.single-slider").bxSlider({
 	  minSlides: 1,
 	  maxSlides: 1,
 	  slideWidth: 263,
 	  nextText: "",
 	  prevText: "",
-	  pagerCustom: '#single_navigation'
+	  pagerCustom: "#single_navigation"
 	});
-$('.bxslider.apartment-popup-slider').bxSlider({
+$(".bxslider.apartment-popup-slider").bxSlider({
 	  minSlides: 1,
 	  maxSlides: 1,
 	  slideWidth: 797,
