@@ -18,7 +18,6 @@ $(".bxslider.visualization-slider").bxSlider({
 	  minSlides: 4,
 	  maxSlides: 4,
 	  slideWidth: 195,
-	  auto: true,
 	  nextText: "",
 	  prevText: ""
 	});
@@ -26,7 +25,6 @@ $(".bxslider.photos-slider").bxSlider({
 	  minSlides: 4,
 	  maxSlides: 4,
 	  slideWidth: 195,
-	  auto: true,
 	  nextText: "",
 	  prevText: ""
 	});
@@ -42,7 +40,6 @@ $(".bxslider.apartment-popup-slider").bxSlider({
 	  minSlides: 1,
 	  maxSlides: 1,
 	  slideWidth: 797,
-	  auto: true,
 	  nextText: "",
 	  prevText: ""
 	});
