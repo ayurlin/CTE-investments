@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic&subset=latin,latin-ext);
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,28 +45,13 @@ table {
 }
 /* end of reset.css */
 
-@font-face {
-	font-family: Lato Regular;
-	src: url("../fonts/Lato-Regular.ttf");
-} 
-@font-face {
-	font-family: Lato Light;
-	src: url("../fonts/Lato-Light.ttf");
-} 
-@font-face {
-	font-family: Lato Black;
-	src: url("../fonts/Lato-Black.ttf");
-} 
-@font-face {
-	font-family: Lato Bold;
-	src: url("../fonts/Lato-Semibold.ttf");
-} 
 html {
 	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 }
 body {
 	margin-top: 30px;
-	font-family: Lato Regular, sans-serif;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	color: #909090;
@@ -86,8 +73,8 @@ textarea {
 	width: 98%;
 }
 textarea, input {
-	font-family: Lato Light;
 	font-size: 14px;
+	font-weight: 300;
 }
 select {
 	-webkit-appearance: none;
@@ -116,26 +103,26 @@ img {
 }
 h1 {
 	font-size: 40px;
-	font-family: Lato Black;
+	font-weight: 900;
 }
 h2 {
 	font-size: 24px;
-	font-family: Lato Black;
+	font-weight: 900;
 	clear: both;
 }
 h3 {
 	font-size: 18px;
-	font-family: Lato Light;
+	font-weight: 300;
 	text-transform: uppercase;
 	margin: 20px 0;
 }
 h4 {
 	font-size: 16px;
-	font-family: Lato Bold;
+	font-weight: 700;
 }
 h5 {
 	font-size: 18px;
-	font-family: Lato Black;
+	font-weight: 900;
 }
 a {
 	text-decoration: none;
@@ -222,7 +209,7 @@ a.red:hover {
 	position: relative; 
 	z-index: 200;  
 	font-size: 18px;
-	font-family: Lato Light;
+	font-weight: 300;
 	display: block;
 	height: 45px;
 }
@@ -310,7 +297,7 @@ a.red:hover {
 .top-slider .single-slide p {
 	padding: 15px 0;
 	color: #fff;
-	font-family: Lato Light;
+	font-weight: 300;
 	font-size: 16px;
 }
 .top-slider .single-slide a {
