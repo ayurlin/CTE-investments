@@ -93,7 +93,7 @@ select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	background-image: url("../images/select_arrow.png");
+	background-image: url("../img/select_arrow.png");
 	background-repeat: no-repeat;
 	background-position: 95% center;
 }
@@ -201,7 +201,7 @@ a.red:hover {
 	position: relative;
 }
 #logo {
-	background-image: url("../images/logo.png");
+	background-image: url("../img/logo.png");
 	height: 46px;
 	width: 178px;
 	margin-bottom: 15px;
@@ -269,7 +269,7 @@ a.red:hover {
 }
 .submenu .submenu-title.active:before {
 	content: " ";
-	background-image: url("../images/submenu_arrow.png");
+	background-image: url("../img/submenu_arrow.png");
 	height: 8px;
 	width: 14px;
 	display: block;
@@ -349,7 +349,7 @@ a.red:hover {
 .subpage-header-image-container {
 	height: 200px;
 	width: 100%;
-	background-image: url("../images/header_bg.jpg");
+	background-image: url("../img/header_bg.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -463,7 +463,7 @@ a.red:hover {
 	margin: 0 0 40px 30px;
 }
 .styled-list li:before {
-	background-image: url("../images/check_mark.png");
+	background-image: url("../img/check_mark.png");
 	content: "";
 	display: inline-block;
 	height: 8px;
@@ -523,15 +523,15 @@ a.red:hover {
 	position: relative;
 }
 .inline-carousel .bx-prev {
-	background-image: url("../images/carousel_arrow_prev.jpg");
+	background-image: url("../img/carousel_arrow_prev.jpg");
 	left: -35px;
 	top: -100px;
 }
 .sidebar .bx-wrapper .bx-prev {
-	background-image: url("../images/slider_arrow_left.png");
+	background-image: url("../img/slider_arrow_left.png");
 }
 .sidebar .bx-wrapper .bx-next {
-	background-image: url("../images/slider_arrow_right.png");
+	background-image: url("../img/slider_arrow_right.png");
 	left: 27px;
 	top: -27px;
 }
@@ -540,7 +540,7 @@ a.red:hover {
 	top: -48px;
 }
 .inline-carousel .bx-next {
-	background-image: url("../images/carousel_arrow_next.jpg");
+	background-image: url("../img/carousel_arrow_next.jpg");
 	top: -127px;
 	left: 100%;
 }
@@ -594,7 +594,7 @@ a.red:hover {
 	margin-top: 40px;
 }
 .submit-btn:after {
-	background-image: url("../images/send_icon.png");
+	background-image: url("../img/send_icon.png");
 	content: " ";
 	display: block;
 	height: 16px;
@@ -846,7 +846,7 @@ footer ul li:not(:first-child) {
 }
 .modal-btn.send-icon:after {
 	content: "";
-	background-image: url("../images/send_icon.png");
+	background-image: url("../img/send_icon.png");
 	width: 22px;
 	height: 16px;
 	display: block;
@@ -856,7 +856,7 @@ footer ul li:not(:first-child) {
 }
 .modal-btn.pdf-icon:after {
 	content: "";
-	background-image: url("../images/pdf_icon.png");
+	background-image: url("../img/pdf_icon.png");
 	display: block;
 	width: 22px;
 	height: 21px;
@@ -894,17 +894,17 @@ footer ul li:not(:first-child) {
 	top: 22px;
 }
 .telephone-icon:before {
-	background-image: url("../images/telephone_icon.png");
+	background-image: url("../img/telephone_icon.png");
 	height: 22px;
 	width: 22px;
 }
 .email-icon:before {
-	background-image: url("../images/email_icon.png");
+	background-image: url("../img/email_icon.png");
 	height: 13px;
 	width: 20px;
 }
 .location-icon {
-	background-image: url("../images/location_icon.png");
+	background-image: url("../img/location_icon.png");
 	background-repeat: no-repeat;
 	padding-left: 30px;
 }
